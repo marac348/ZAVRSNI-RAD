@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EUROPSKI SVECI</title>
+  <link rel="stylesheet" href="..\CSS\STIL.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>EUROPSKI SVECI</h1>
+      <p>„Hoće li tko za mnom, neka se odreče samoga sebe, neka uzme svoj križ i neka ide za mnom.” (Mt 16,24)</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="KOD.html" class="active">Mapa</a></li>
+      <li><a href="kanon.html">Kanonizacija</a></li>
+      <li><a href="info.html">O izradi</a></li>
+    </ul>
+  </nav>
+
+  <div class="map-container">
+    <img src="..\SLIKE\europe.jpg" usemap="#mapa-europe" id="mapa-slike" alt="Mapa Europe">
+    <div id="tooltip"></div>
+
+    <map name="mapa-europe">
+      <!-- Hrvatska -->
+      <area shape="poly" coords="650,913,686,904,716,866,772,890,779,909,704,918,772,994,714,967,692,948"
+        href="ZEMLJE/hrvatska.html" alt="Hrvatska" title="Hrvatska" data-name="Hrvatska">
+
+      <area alt="Bosna i Hercegovina" title="Bosna i Hercegovina" href="ZEMLJE/bih.html"
+        coords="708,913,720,944,776,994,789,962,798,942,787,930,791,914" shape="poly" data-name="Bosna i Hercegovina">
+
+      <area alt="Slovenija" title="Slovenija" href="ZEMLJE/slovenija.html"
+        coords="653,908,653,870,675,874,708,857,715,866,702,876,691,896,694,903,673,903" shape="poly"
+        data-name="Slovenija">
+
+      <area alt="Crna Gora" title="Crna Gora" href="ZEMLJE/cg.html" coords="781,994,791,962,819,982,811,991,803,1009"
+        shape="poly" data-name="Crna Gora">
+
+      <area alt="Srbija" title="Srbija" href="ZEMLJE/srbija.html"
+        coords="826,889,839,905,873,921,869,944,883,958,878,988,862,988,836,968,822,981,798,962,801,943,790,933,792,913,785,895,779,880,802,867"
+        shape="poly" data-name="Srbija">
+
+      <area alt="Austrija" title="Austrija" href="ZEMLJE/austrija.html"
+        coords="558,847,570,860,602,860,620,856,633,868,677,872,713,854,718,834,726,813,719,792,694,788,681,783,672,797,654,796,642,808,631,816,636,836"
+        shape="poly" data-name="Austrija">
+
+      <area alt="Češka" title="Češka" href="ZEMLJE/ceska.html"
+        coords="752,749,719,737,676,721,649,727,621,742,618,760,639,784,653,793,668,798,683,786,702,789,720,791,739,784,752,764"
+        shape="poly" data-name="Češka">
+
+      <area alt="Slovačka" title="Slovačka" href="ZEMLJE/slovacka.html"
+        coords="838,785,814,786,795,798,772,805,759,821,737,817,723,806,724,791,746,775,759,762,774,755,783,766,801,758,824,754,840,764"
+        shape="poly" data-name="Slovačka">
+
+      <area alt="Mađarska" title="Mađarska" href="ZEMLJE/madarska.html"
+        coords="743,887,724,869,713,858,717,831,723,824,740,818,765,817,781,802,797,797,824,784,845,791,855,798,839,813,830,847,823,863,792,866,776,884,760,888"
+        shape="poly" data-name="Mađarska">
+
+      <area target="" alt="Poljska" title="Poljska" href="ZEMLJE/Poljska.html"
+        coords="654,623,659,667,671,715,701,726,706,737,715,731,738,745,769,756,787,767,808,756,832,756,847,762,845,736,864,712,852,677,844,656,842,644,846,637,826,589,809,586,758,590,740,595,729,581"
+        shape="poly" data-name="Poljska">
+
+      <area target="" alt="Njemačka" title="Njemačka" href="ZEMLJE/Njemačka.html"
+        coords="669,713,649,627,632,600,582,621,561,597,536,589,546,629,533,642,512,634,500,668,497,686,482,696,481,720,488,738,483,749,490,759,490,773,523,790,513,834,534,831,556,833,565,835,572,842,578,834,594,839,628,830,629,815,651,797,621,765,615,745"
+        shape="poly" data-name="Njemačka">
+
+      <area target="" alt="Švicarska" title="Švicarska" href="ZEMLJE/Švicarska.html"
+        coords="469,885,500,841,525,836,555,836,550,848,554,858,567,863,572,870,568,878,554,875,541,897,532,877,518,889,497,890,490,880"
+        shape="poly" data-name="Švicarska">
+
+      <area target="" alt="Lihtenštajn" title="Lihtenštajn" href="ZEMLJE/Lihtenštajn.html"
+        coords="553,839,551,858,571,860,571,839" shape="poly" data-name="Lihtenštajn">
+
+      <area target="" alt="Italija" title="Italija" href="ZEMLJE/Italija.html"
+        coords="496,898,489,920,494,940,506,955,506,962,533,946,575,963,594,1003,612,1018,635,1044,658,1049,688,1065,710,1090,730,1112,726,1135,724,1155,703,1156,634,1168,711,1202,712,1157,744,1131,756,1118,735,1095,750,1069,787,1084,776,1062,715,1030,725,1021,691,1023,652,971,624,949,619,906,656,897,645,872,621,862,612,851,588,861,575,874,550,878,544,898,528,883"
+        shape="poly" data-name="Italija">
+
+      <area target="" alt="Nizozemska" title="Nizozemska" href="ZEMLJE/Nizozemska.html"
+        coords="477,726,482,693,500,679,497,664,508,643,481,640,468,660,459,656,434,703,452,698,474,709" shape="poly"
+        data-name="Nizozemska">
+
+      <area target="" alt="Belgija" title="Belgija" href="ZEMLJE/Belgija.html"
+        coords="407,713,435,740,441,753,455,745,464,767,481,745,479,729,469,710,451,707,435,708" shape="poly"
+        data-name="Belgija">
+
+      <area target="" alt="Luksemburg" title="Luksemburg" href="ZEMLJE/Luksemburg.html"
+        coords="478,747,468,773,490,775,489,754" shape="poly" data-name="Luksemburg">
+
+      <area target="" alt="Francuska" title="Francuska" href="ZEMLJE/Francuska.html"
+        coords="407,712,436,740,442,756,450,754,466,767,479,778,492,776,522,786,511,832,501,834,477,865,469,883,489,882,491,902,484,914,490,940,504,954,490,967,477,985,424,968,395,978,393,996,381,1007,358,996,343,988,324,989,299,973,280,954,309,890,281,811,240,791,241,773,273,773,290,784,310,775,309,750,343,762,351,750,382,740,387,717"
+        shape="poly" data-name="Francuska">
+
+      <area target="" alt="Španjolska" title="Španjolska" href="ZEMLJE/Spanjolska.html"
+        coords="276,957,327,989,394,1008,375,1043,326,1054,292,1090,303,1119,277,1138,273,1155,248,1163,232,1178,154,1176,133,1187,115,1145,94,1134,110,1111,116,1078,109,1055,127,1055,139,1011,159,1000,144,977,118,978,111,967,97,968,95,928,121,920,133,915,176,933,229,948"
+        shape="poly" data-name="Španjolska">
+
+      <area target="" alt="Portugal" title="Portugal" href="ZEMLJE/Portugal.html"
+        coords="97,967,111,977,137,978,152,1001,136,1011,126,1042,110,1055,109,1085,106,1108,92,1134,51,1130,70,1092,52,1069,83,1023"
+        shape="poly" data-name="Portugal">
+
+      <area target="" alt="Velika Britanija" title="Velika Britanija" href="ZEMLJE/VB.html"
+        coords="231,718,353,718,387,701,368,694,397,662,376,645,341,550,327,534,349,490,325,477,331,449,303,442,285,466,276,505,275,522,252,546,233,552,225,561,220,569,224,576,235,569,241,580,253,584,261,578,277,565,289,568,315,569,301,577,307,593,311,613,311,628,279,616,277,651,254,662,288,682"
+        shape="poly" data-name="Velika Britanija">
+
+      <area target="" alt="Irska" title="Irska" href="ZEMLJE/Irska.html"
+        coords="168,655,236,637,247,589,235,575,216,580,214,563,236,541,215,540,200,568,177,563,173,590,172,616,153,627"
+        shape="poly" data-name="Irska">
+
+      <area target="" alt="Island" title="Island" href="ZEMLJE/Island.html"
+        coords="103,105,87,119,91,180,117,211,159,223,230,189,205,128" shape="poly" data-name="Island">
+
+      <area target="" alt="Norveška" title="Norveška" href="ZEMLJE/Norveška.html"
+        coords="484,461,527,482,571,437,591,446,599,382,608,370,596,291,619,274,619,249,629,206,647,153,667,130,674,114,694,119,693,95,709,82,733,102,762,87,762,48,779,37,803,60,811,41,789,9,731,21,669,72,550,304,498,343"
+        shape="poly" data-name="Norveška">
+
+      <area target="" alt="Švedska " title="Švedska " href="ZEMLJE/Švedska.html"
+        coords="625,570,651,546,678,538,685,465,715,414,678,371,725,272,727,228,762,195,742,131,715,107,698,98,693,119,673,115,667,136,649,160,629,207,623,270,599,291,610,371,602,386,608,411,596,426,592,451"
+        shape="poly" data-name="Švedska">
+
+      <area target="" alt="Finska" title="Finska" href="ZEMLJE/Finska.html"
+        coords="768,197,738,118,704,97,711,89,730,105,755,100,763,62,779,42,800,58,804,102,831,117,827,150,846,181,847,210,871,234,872,250,899,272,866,362,790,400,754,381,743,312,792,225"
+        shape="poly" data-name="Finska">
+
+      <area target="" alt="Estonija" title="Estonija" href="ZEMLJE/Estonija.html"
+        coords="822,461,841,454,861,465,877,461,883,449,869,425,875,402,818,407,795,426" shape="poly"
+        data-name="Estonija">
+
+      <area target="" alt="Latvija " title="Latvija " href="ZEMLJE/Latvija.html"
+        coords="818,491,823,463,845,457,859,467,882,463,890,481,903,500,895,515,879,525,839,513,785,520,773,533,774,487,791,475"
+        shape="poly" data-name="Latvija">
+
+      <area target="" alt="Litva" title="Litva" href="ZEMLJE/Litva.html"
+        coords="774,537,781,559,803,562,813,581,827,586,834,597,858,586,871,577,875,546,885,537,878,526,842,511,787,519"
+        shape="poly" data-name="Litva">
+
+      <area target="" alt="Rusija" title="Rusija" href="ZEMLJE/Rusija.html"
+        coords="941,55,982,92,961,128,906,155,939,200,949,181,959,165,1010,173,987,139,1003,97,989,14,1050,29,1060,0,1240,2,1242,811,1194,802,1208,778,1202,749,1226,714,1200,721,1205,699,1224,689,1224,669,1208,629,1144,630,1101,641,1089,625,1068,629,1064,607,1046,592,1009,614,990,587,1014,567,969,535,943,506,922,502,906,502,879,462,886,449,870,424,874,404,903,373,866,357,898,271,871,234,855,215,846,177,823,148,829,115,802,97,801,76,821,43,874,43"
+        shape="poly" data-name="Rusija">
+
+      <area target="" alt="Rusija" title="Rusija" href="ZEMLJE/Rusija.html"
+        coords="791,593,814,582,807,565,783,561,782,570,762,577,758,590" shape="poly" data-name="Rusija">
+
+
+      <area target="" alt="Bijelorusija" title="Bijelorusija" href="ZEMLJE/Bijelorusija.html"
+        coords="833,601,846,636,834,652,846,668,861,661,934,656,961,647,993,648,986,623,1006,616,988,583,1009,568,962,531,942,505,918,502,901,501,881,536,874,580"
+        shape="poly" data-name="Bijelorusija">
+
+      <area target="" alt="Ukrajina" title="Ukrajina" href="ZEMLJE/Ukrajina.html"
+        coords="869,711,850,730,846,756,837,782,865,792,903,794,939,768,957,759,997,770,1022,802,1027,814,1003,815,995,851,1026,850,1037,815,1064,786,1081,791,1084,804,1106,799,1096,827,1125,836,1134,851,1181,812,1130,802,1136,788,1197,723,1205,692,1220,684,1205,629,1104,639,1085,624,1069,628,1061,611,1048,595,993,624,998,648,931,657,885,653,851,673"
+        shape="poly" data-name="Ukrajina">
+
+      <area target="" alt="Moldavija" title="Moldavija" href="ZEMLJE/Moldavija.html"
+        coords="941,770,983,813,991,851,1003,813,1022,811,994,765,962,757" shape="poly" data-name="Moldavija">
+
+      <area target="" alt="Rumunjska" title="Rumunjska" href="ZEMLJE/Rumunjska.html"
+        coords="858,794,829,846,806,865,839,894,861,915,871,907,882,923,911,933,949,925,978,902,1014,907,1029,861,1019,853,1002,859,983,813,959,790,942,769,905,797"
+        shape="poly" data-name="Rumunjska">
+
+      <area target="" alt="Bugarska" title="Bugarska" href="ZEMLJE/Bugarska.html"
+        coords="874,922,905,935,950,926,979,903,1017,911,1014,969,999,970,982,983,977,999,951,1007,933,1003,899,1017,897,999,877,987,878,969,889,957,867,943"
+        shape="poly" data-name="Bugarska">
+
+      <area target="" alt="Kosovo" title="Kosovo" href="ZEMLJE/Kosovo.html"
+        coords="831,965,818,985,837,1005,849,999,861,992" shape="poly" data-name="Kosovo">
+
+      <area target="" alt="Sjeverna Makedonija" title="Sjeverna Makedonija" href="ZEMLJE/SM.html"
+        coords="835,1010,845,1042,874,1030,894,1021,894,1000,877,989" shape="poly" data-name="Sjeverna Makedonija">
+
+      <area target="" alt="Grčka" title="Grčka" href="ZEMLJE/Grčka.html"
+        coords="854,1044,839,1088,863,1115,891,1172,914,1184,935,1182,930,1145,966,1120,923,1049,947,1023,982,1019,983,988,962,1007,939,1001,895,1017"
+        shape="poly" data-name="Grčka">
+
+      <area target="" alt="Turska" title="Turska" href="ZEMLJE/Turska.html"
+        coords="982,1020,1014,970,1105,978,1189,912,1240,924,1240,1081,1208,1127,1146,1128,1114,1148,1048,1145"
+        shape="poly" data-name="Turska">
+
+      <area target="" alt="Danska" title="Danska" href="ZEMLJE/Danska.html"
+        coords="538,588,556,588,603,593,614,550,564,564,582,540,574,494,538,518,530,545" shape="poly"
+        data-name="Danska">
+
+      <area target="" alt="Albanija" title="Albanija" href="ZEMLJE/Albanija.html"
+        coords="803,1007,813,991,833,1003,838,1037,850,1049,834,1084,811,1061" shape="poly" data-name="Albanija">
+
+    </map>
+  </div>
+
+  <!-- Responzivni image map JS -->
+  <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+  <script src="..\JAVASCRIPT\JAVA.js"></script>
+
+  <footer class="detailed-footer">
+
+    <div class="footer-section">
+      <ul>
+        <li>
+          <p>Po uzoru na Carlo Acutisa:</p>
+          <p><a href="https://www.miracolieucaristici.org/en/liste/list.html">Euharistijska čuda</a></p>
+        </li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-section">
+      <h3>Društvene mreže</h3>
+      <ul>
+        <li>Instegram: @sveci_europe</li>
+        <li>Tiktok: @sveci_europe</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Podrška i informacije</h3>
+      <p>zupniured@vrbani.hr</p>
+      <p>Radno vrijeme:</p>
+      <p>ponedjeljak - petak: 12-16 h</p>
+      <h3>Besplatni info telefon</h3>
+      <p>091 972 1727</p>
+    </div>
+
+    <div class="footer-copyright">
+      <p>&copy; 2026., Europski sveci d. o. o.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
